@@ -7,3 +7,18 @@
     border: solid 1px #999;
     background-color: #DDD875;
 }
+
+
+h1 {
+    color: purple;
+    font-size: 200%;
+}
+
+p {
+    text-indent: 20px;
+    margin-left: 10px;
+}
+
+#content {
+    border: dashed 2px #444444;
+}
