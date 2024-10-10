@@ -1,0 +1,27 @@
+.minor-section {
+    padding: 10px;
+    margin-bottom: 10px;
+    border: solid 1px #888;
+    background-color: #b6b3c6;
+}
+
+
+h1 {
+    color: purple;
+    font-size: 200%;
+}
+
+p {
+    text-indent: 20px;
+    margin-left: 10px;
+}
+
+#content {
+    border: dashed 2px #444444
+}
+
+
+.img-class {
+    margin: 10px;
+    max-width: 700px;
+}
