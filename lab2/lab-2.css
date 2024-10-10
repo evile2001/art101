@@ -1,13 +1,13 @@
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 1px #888;
-    background-color: #b6b3c6;
+    padding: 50px;
+    margin-bottom: 50px;
+    border: solid 1px rgb(68, 59, 131);
+    background-color: #b2a9e6;
 }
 
 
 h1 {
-    color: purple;
+    color: rgb(179, 27, 179);
     font-size: 200%;
 }
 
@@ -17,7 +17,7 @@ p {
 }
 
 #content {
-    border: dashed 2px #444444
+    border: dotted 10px #ef467c
 }
 
 
