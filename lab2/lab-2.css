@@ -7,16 +7,16 @@
 
 
 h1 {
-    color: rgb(156, 10, 10);
-    font-size: 300%;
+    color: rgb(14, 80, 30);
+    font-size: 500%;
 }
 
 p {
-    text-indent: 10px;
+    text-indent: 0px;
     margin-left: 10px;
-    color:rgb(82, 14, 128)
+    color:rgb(13, 100, 25)
 }
 
 #content {
-    border: dashed 50px #165c09
+    border: dashed 30px #741909
 }
