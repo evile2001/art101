@@ -1,18 +1,18 @@
 .minor-section {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: solid 5px rgb(141, 126, 243);
+    padding: 1px;
+    margin-bottom: 1px;
+    border: solid 50px rgb(141, 126, 243);
     background-color: #3f24d9;
 }
 
 
 h1 {
-    color: rgb(179, 27, 179);
-    font-size: 200%;
+    color: rgb(139, 246, 24);
+    font-size: 300%;
 }
 
 p {
-    text-indent: 20px;
+    text-indent: 10px;
     margin-left: 10px;
 }
 
