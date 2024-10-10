@@ -7,7 +7,7 @@
 
 
 h1 {
-    color: rgb(139, 246, 24);
+    color: rgb(156, 10, 10);
     font-size: 300%;
 }
 
@@ -18,5 +18,5 @@ p {
 }
 
 #content {
-    border: dotted 50px #8ff512
+    border: dotted 50px #165c09
 }
