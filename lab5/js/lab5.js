@@ -2,7 +2,7 @@
  * Author: Emma Faszer <efaszer@ucsc.edu>
  * Created: 21 October 2024
  * Licence: Public Domain
- * /
+*/
 
 // Define variables
 make = "Toyota" ;
