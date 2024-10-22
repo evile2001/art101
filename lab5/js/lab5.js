@@ -17,5 +17,5 @@ age = 2024 - 2008;
 document.writeln("Make: " + make + "<br>");
 document.writeln("Model: " + model + "<br>");
 document.writeln("Color: " + color + "<br>");
-document.writeln("Year: " + age + " years<br>");
+document.writeln("Year: " + year + "<br>");
 document.writeln("Age: " + age + " years<br>");
