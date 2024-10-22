@@ -11,7 +11,7 @@ color = "blue" ;
 year = 2008;
 
 // calculate
-age = 2024 - 2008;
+age = 2024 - year;
 
 //output
 document.writeln("Make: " + make + "<br>");
