@@ -4,23 +4,6 @@
 .minor-section {
     padding: 10px;
     margin-bottom: 10px;
-    border: solid 1px #429;
-    background-color: #DDD885;
-}
-
-
-h1 {
-    color: purple;
-    font-size: 100%;
-}
-
-p {
-    text-indent: 0px;
-    margin-left: 10px;
-    font-size: 100%;
-}
-
-#content {
-    border: dotted 4px #327654;
-    width: 100px;
-}
+    border: solid 1px #888;
+    background-color: #DDD8C4;
+  }
