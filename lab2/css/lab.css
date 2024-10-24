@@ -11,16 +11,16 @@
 
 h1 {
     color: purple;
-    font-size: 300%;
+    font-size: 100%;
 }
 
 p {
     text-indent: 0px;
     margin-left: 10px;
-    font-size: 200%;
+    font-size: 100%;
 }
 
 #content {
     border: dotted 4px #327654;
-    width: 500px;
+    width: 100px;
 }
