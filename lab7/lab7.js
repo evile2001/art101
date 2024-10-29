@@ -28,3 +28,12 @@ document.getElementById("output").innerHTML = `<p>I fixed your name: <strong>${r
 }
 
 window.onload = displaySortedName;
+
+
+
+
+
+
+
+
+console.log("Emma is smart");
