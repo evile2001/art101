@@ -3,28 +3,10 @@
  * Created: 28 October 2024
 */
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+function displaySortedName() {
+    let result = sortUserName();
+    document.getElementById("output").innerHTML = `<p>I fixed your name: <strong>${result}</strong></p>`;
+}
 function sortUserName() {
     var userName = window.prompt("Hi, please tell me your name so I can fix it.");
     console.log("userName =", userName);
@@ -42,11 +24,6 @@ function sortUserName() {
     console.log("nameSorted =", nameSorted);
 
     return "Your sorted name is: " + nameSorted;
-}
-
-function displaySortedName() {
-    let result = sortUserName();
-    document.getElementById("output").innerHTML = `<p>I fixed your name: <strong>${result}</strong></p>`;
 }
 
 window.onload = displaySortedName;
