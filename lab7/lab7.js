@@ -1,5 +1,7 @@
-// Author: Emma Faszer <efaszer@ucsc.edu>
-// Created: 28 October 2024
+/**
+ * Author: Emma Faszer <efaszer@ucsc.edu>
+ * Created: 28 October 2024
+**/
 
 // sortUserName - a function that takes user input and sorts the letters of their name
 function sortUserName() {
