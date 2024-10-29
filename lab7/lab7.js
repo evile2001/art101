@@ -1,7 +1,7 @@
 /**
  * Author: Emma Faszer <efaszer@ucsc.edu>
  * Created: 28 October 2024
-**/
+*/
 
 function sortUserName() {
     var userName = window.prompt("Hi. Please tell me your name so I can fix it.");
