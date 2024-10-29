@@ -24,7 +24,7 @@ return "Your sorted name is: " + nameSorted;
 
 function displaySortedName () {
 let result = sortUserName ();
-document.getElementBId("output").innerHTML = '<p>I fixed your name: <strong>${result}</strong></p>';
+document.getElementById("output").innerHTML = '<p>I fixed your name: <strong>${result}</strong></p>';
 }
 
 window.onload = displaySortedName;
