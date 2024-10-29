@@ -18,6 +18,8 @@ function sortUserName() {
     // array back to string
     var nameSorted = nameArraySort.join('');
     console.log("nameSorted =", nameSorted);
+
+    return nameSorted;
 }
 
 function displaySortedName() {
