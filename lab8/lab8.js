@@ -1,15 +1,21 @@
 // Author: Emma Faszer <efaszer@ucsc.edu>
 // Date: 31 October 2024
 
-function multiplyByTwo(x){
-    return x*2;
+function isEven(x){
+    return (x % 2 == 0);
 }
 
-numbers.map(multiplyByTwo);
+console.log("Is 1 even? ", isEven(1));
+console.log("Is 2 even? ", isEven(2));
 
-numbers.map(function(x){
+array = [100, 81, 4, 16, 42, 144, 10000]
+console.log("My array", array);
+
+var result = array.map(isEven);
+console.log("Test of evenness of array:", result);
+
+var result = array.map(function(x){
     return x ** 0.5;
 })
 
-mapResults = numbers.map(multiplyByTwo);
-console.log("Results: ", mapResults);
+console.log("Squareroot of array:", result);
