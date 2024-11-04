@@ -4,6 +4,6 @@
 
 $("#challenge").append("<button id='button-challenge'>Make Special</button>");
 
-$("button-challenge").click(function(){
+$("#button-challenge").click(function(){
     $("challenge").toggleClass("special");
 });
