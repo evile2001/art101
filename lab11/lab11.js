@@ -14,3 +14,5 @@ const userName = $("#user-name").val();
 userNameSorted = sortString(userName);
 
 $("#output").html('<div class="text"><p>' + userNameSorted + '</p></div>');
+
+console.log("The user clicked the button.");
