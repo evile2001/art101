@@ -6,16 +6,16 @@ function sortingHat(str) {
     let len = str.length;
     let mod = len % 4;
     if (mod === 0) {
-        return "Gryffindor"
+        return "Paul"
     }
     else if (mod === 1) {
-        return "Ravenclaw"
+        return "John"
     }
     else if (mod === 2) {
-        return "Slytherin"
+        return "George"
     }
     else if (mod === 3) {
-        return "Hufflepuff"
+        return "Ringo :("
     }
 }
 
@@ -23,6 +23,6 @@ var myButton = document.getElementById("button");
 myButton.addEventListener("click", function() {
     var name= document.getElementById("input").value;
     var house = sortingHat(name);
-    newText = "<p>The Sorting Hat has sorted you into " + house + "</p>";
+    newText = "<p>Here's your answer: " + house + "</p>";
     document.getElementById("output").innerHTML = newText;
 })
