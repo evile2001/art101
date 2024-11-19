@@ -3,15 +3,14 @@
 
 
 function processInput () {
-    const inputNumber = parseInt(document.GetElementById("numberInput").value);
-}
+    const inputNumber = parseInt(document.getElementById("numberInput").value);
 
-if (isNaN(inputNumber) || inputNumber<= 0) {
+    if (isNaN(inputNumber) || inputNumber<= 0) {
     alert("Enter a positive number");
     return;
 }
 
-$("output").html("");
+$("#output").html("");
 
 for (let num = 1; num <= inputNumber; num++) {
     let str = "";
@@ -32,5 +31,5 @@ for (let num = 1; num <= inputNumber; num++) {
     if (str === "") {
         str - num;
     }
-    $("output").append(`<p class="${className.trim()}">${str}</p>`);
-}
+    $("#output").append(`<p class="${className.trim()}">${str}</p>`);
+}}
