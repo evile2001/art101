@@ -1,0 +1,28 @@
+body {
+    background-color: #ffffff;
+  }
+h1,h2,h3 {
+    font-family: Arial, Helvetica, sans-serif;
+  }
+h1 {
+    letter-spacing: 5px;
+    word-spacing: 5px;
+    font-size: 200%;
+  }
+#content {
+    margin: 10px;
+    padding: 10px;
+    border: solid 1px #ffffff;
+    background-color: #ffffff;
+  }
+
+.minor-section {
+  padding: 10px;
+  margin-bottom: 10px;
+  border: dotted 15px #ffffff;
+  background-color: #ffffff;
+}
+
+.special {
+    background-color: #aef557;
+}
